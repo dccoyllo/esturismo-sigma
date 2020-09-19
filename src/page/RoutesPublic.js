@@ -12,8 +12,7 @@ export class RoutesPublic extends Component {
             <Switch>
                 <Route path="/login" component={Login} />
                 <Route path="/registrate" component={Registrate} />
-
-                <div className="layout-main">
+                <div>
                     <Header />
                     <Route path="/search" component={Search} />
                     <Footer />

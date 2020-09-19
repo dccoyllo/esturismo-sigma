@@ -3,7 +3,7 @@ import React from 'react'
 function header() {
     return (
         <div>
-            esto es el footer o botton xd
+            esto es el Header o top xd
         </div>
     )
 }
