@@ -9,6 +9,7 @@ import '@fullcalendar/daygrid/main.css';
 import '@fullcalendar/timegrid/main.css';
 import './layout/layout.scss';
 import './App.scss';
+
 import RoutesPrivate from './page/RoutesPrivate';
 import RoutesPublic from './page/RoutesPublic';
 //import App from './App';

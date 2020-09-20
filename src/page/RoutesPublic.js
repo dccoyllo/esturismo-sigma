@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import { Login } from './publicas/Login';
-import Registrate from './publicas/Registrate';
-import Search from './publicas/Search';
-import Footer from './layout/Footer';
-import Header from './layout/Header';
+import { Registrate } from './publicas/Registrate';
+import { Search } from './publicas/Search';
+import { Footer } from './layout/Footer';
+import {Header } from './layout/Header';
+
+
+
 
 export class RoutesPublic extends Component {
     render() {

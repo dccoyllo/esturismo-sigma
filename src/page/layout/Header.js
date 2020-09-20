@@ -1,12 +1,15 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-function header() {
-    return (
-        <div>
-            esto es el Header o top xd
-        </div>
-    )
+export class Header extends Component {
+    render() {
+        return (
+            <div>
+                aqui es los footer
+            </div>
+        )
+    }
 }
 
-export default header;
+export default Header;
+
 
